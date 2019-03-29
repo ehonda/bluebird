@@ -93,6 +93,6 @@ The function cycles maps `findCycle` to the list of reduction sequences, `unique
 
 There are various ways to visualize a sequence of reductions. Here is an example
 
-![Screenshot of the visualization](img/display_boxes.png)
+![Screenshot of the visualization](https://github.com/ehonda/bluebird/blob/master/img/display_boxes.PNG)
 
 For more examples, please refer to the various demo functions implemented in module Main.
