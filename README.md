@@ -1,3 +1,15 @@
+# Dependencies
+
+The following packages are depended upon:
+
+<https://hackage.haskell.org/package/split-0.2.3.3>
+
+<https://hackage.haskell.org/package/natural-numbers-0.1.2.0>
+
+<https://hackage.haskell.org/package/ansi-terminal>
+
+<https://hackage.haskell.org/package/Unique-0.4.7.6>
+
 # About
 
 This is an implementation of a string rewrite system that is based on an algorithm introduced by Ikebuchi and Nakano in <https://arxiv.org/abs/1901.11010>. It operates on lists of natural numbers and produced weakly decreasing lists of natural numbers. For a detailed description with an example of how the algorithm operates see Example 3.2 in the referenced paper. From this algorithm, we obtain the reductions of a starting word w by fixing a word c to append and repeatedly applying the algorithm with L_2 = c, obtaining the sequence:
